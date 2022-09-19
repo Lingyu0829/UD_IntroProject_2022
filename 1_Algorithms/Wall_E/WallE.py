@@ -32,27 +32,21 @@ class WallE:
         else:
             return True
 
-    #Requires an action
     def pick_up_box(self):
-        if not self.action:
-            if self.board[self.position[0]][self.position[1]] == 2:
-                self.board[self.position[0]][self.position[1]] = 0
-            else:
-                self.broken = True
-            self.action = True
+        if self.board[self.position[0]][self.position[1]] == 2:
+            self.board[self.position[0]][self.position[1]] = 0
         else:
             self.broken = True
+        self.action = True
 
-    #Requires an action
+
     def drop_box(self):
-        if not self.action:
-            if self.board[self.position[0]][self.position[1]] == 0:
-                self.board[self.position[0]][self.position[1]] = 2
-            else:
-                self.broken = True
-            self.action = True
+        if self.board[self.position[0]][self.position[1]] == 0:
+            self.board[self.position[0]][self.position[1]] = 2
         else:
             self.broken = True
+        self.action = True
+
 
     #Requires an action
     def move(self):
