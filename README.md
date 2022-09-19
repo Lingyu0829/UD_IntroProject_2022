@@ -29,7 +29,7 @@ __Tuesday (TBC)__: 13:30 (TBC) - 11/10: __Session 3__
 - Introduction to ML
     - ML assignment for Thursday 
 
-__Thursday__: 12:00 (TBC) - 13/10: _seminar_
+__Wednesday__: 12:00 (TBC) - 13/10: _seminar_
 - Help with questions
 
 __Thursday__ : 18:30 (TBC) - 13/10: __Session 4__
