@@ -2,7 +2,7 @@
 
 ----
 # Schedule
-__Monday__: 13:00(TBC) - 3/10 (Today): __Introduction__
+__Monday__: 13:00 - 3/10: __Introduction__
 - What is programming, Variables, Loops
     - Text based assignments for Wednesday
 
@@ -39,4 +39,4 @@ __Thursday__ : - 13/10: __Session 4__
 __Monday__: - 17/10: _seminar_
 - Help with questions
 
-__Wednesday__: (TBA) - 19/10: __Final Presentation__
+__Wednesday__: 10:00 - 19/10: __Final Presentation__
