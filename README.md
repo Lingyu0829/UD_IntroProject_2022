@@ -1,6 +1,14 @@
 # UD_IntroProject_2022
 
 ----
+
+All Lectures will be on Zoom:
+
+https://ucl.zoom.us/j/98526894158?pwd=ZkRuNkptZW9nUlVoTmhseXEzQmFtZz09
+
+Meeting ID: 985 2689 4158 Passcode: 174714
+
+----
 # Schedule
 __Monday__: 13:00 - 3/10: __Introduction__
 - What is programming, Variables, Loops
