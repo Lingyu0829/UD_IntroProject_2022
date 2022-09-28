@@ -83,7 +83,6 @@ class WallE:
     def walk_back_and_forth(self):
         if not self.check_wall():
             self.move()
-            self.move()
         elif self.turns<2:
             self.turn_left()
             self.turns+=1
