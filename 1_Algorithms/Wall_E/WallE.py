@@ -1,6 +1,7 @@
 import math, pygame
 from math import pi
 
+# This is the walle class
 class WallE:
 
     def turn(self, angle):
