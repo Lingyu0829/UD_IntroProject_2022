@@ -11,6 +11,7 @@ Meeting ID: 985 2689 4158 Passcode: 174714
 ----
 # Schedule
 __Monday__: 13:00 - 3/10: __Introduction__
+
 Recording: https://ucl.zoom.us/rec/share/Jp3D7xsW3OAJ3BDY8m2mO1bLewU0bmk9fs2qeEnonfz6cL3vRXjEhpsklILSLkur.XKGu6oNGnmKxBhoy 
 Passcode: ```1s25+qe$```
 - What is programming, Variables, Loops
