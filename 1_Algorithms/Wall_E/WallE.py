@@ -1,9 +1,8 @@
 import math, pygame
 from math import pi
 
-# This is the walle class
+# This is the Wall-E class
 class WallE:
-
     def turn(self, angle):
         x = self.direction[0]
         y = self.direction[1]
@@ -11,18 +10,23 @@ class WallE:
                             int(x*math.sin(angle)+y*math.cos(angle))]
         self.image = self.imageDict[str(self.direction)]
 
+
+    #Function that turns Wall-E 90 degrees to the right
     def turn_right(self):
         self.turn(0.5*pi)
 
+    #Function that turns Wall-E 90 degrees to the left
     def turn_left(self):
         self.turn(-0.5*pi)
 
+    #Function that returns true if Wall-E stands on a box
     def check_on_box(self):
         if self.board[self.position[0]][self.position[1]] == 2:
             return True
         else:
             return False
 
+    #Function that returns true if Wall-E stands in front of a wall
     def check_wall(self):
         x = self.position[0] + self.direction[0]
         y = self.position[1] + self.direction[1]
@@ -33,23 +37,24 @@ class WallE:
         else:
             return True
 
+    #Function that picks up a box - it breaks Wall-E if you try to pick up a box
+    #that isn't there!
     def pick_up_box(self):
         if self.board[self.position[0]][self.position[1]] == 2:
             self.board[self.position[0]][self.position[1]] = 0
         else:
             self.broken = True
-        self.action = True
 
-
+    #Function that drops a box - it breaks Wall-E if you try to drop a box on top
+    #of another box!
     def drop_box(self):
         if self.board[self.position[0]][self.position[1]] == 0:
             self.board[self.position[0]][self.position[1]] = 2
         else:
             self.broken = True
-        self.action = True
 
-
-    #Requires an action
+    #Function that makes Wall-E takes one step forward. It breaks Wall-E if you
+    #try to take 2 steps at once!
     def move(self):
         if not self.action:
             self.position[0] += self.direction[0]
@@ -63,6 +68,7 @@ class WallE:
         else:
             self.broken = True
 
+    # Initialisation function of Wall-E Class
     def __init__(self, position, board, image):
         self.position = position
         self.board = board
@@ -77,24 +83,23 @@ class WallE:
         self.broken = False
 
         #-----------------------------------------------------------------------
-        # Declare variables you need here:
-        self.turns = 0
+        # Declare variables you need here (Please formulate these variables
+        # in ALL CAPS to avoid clashes with existing variable!!!)
+        # and make sure they are at this indent level
 
+        self.HELP_VARIABLE = None
 
+    # Declare any help functions here (also use all caps for these!!)
+    # and make sure they are at this indent level
+    def HELP_FUNCTION(self):
+        pass
+
+# These are the 5 functions you have to fill in
     def walk_back_and_forth(self):
-        if not self.check_wall():
-            self.move()
-        elif self.turns<2:
-            self.turn_left()
-            self.turns+=1
+        pass
 
     def walk_a_lap(self):
-        if not self.turns == 4:
-            if not self.check_wall():
-                self.move()
-            else:
-                self.turn_right()
-                self.turns+=1
+        pass
 
     def find_the_box(self):
         pass

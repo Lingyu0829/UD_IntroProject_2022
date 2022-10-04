@@ -45,7 +45,7 @@ for i in range(int(screen_width/cell-2)):
         row.append(0)
     board.append(row)
 
-# Load WallE image
+# Load images
 walle_image = pygame.image.load('Resources/Wall_E.png')
 walle_image = pygame.transform.scale(walle_image, (cell, cell))
 
@@ -82,7 +82,7 @@ for i in range(len(board)):
         pygame.draw.circle(background, pygame.Color('grey'), [posx, posy], 2)
 
 
-
+# Display the menu buttons
 menu_surface.blit(walk_bf_image, [screen_width*0.25, screen_height*0.15])
 menu_surface.blit(walk_lap_image, [screen_width*0.25, screen_height*0.3])
 menu_surface.blit(findbox_image, [screen_width*0.25, screen_height*0.45])
@@ -121,6 +121,8 @@ while True:
         if status == 'select':
              #checks if a mouse is clicked
             if event.type == pygame.MOUSEBUTTONDOWN:
+                # Select the button that is clicked and set the game status that
+                # is tested
                 if screen_width*0.25 <= mouse[0] <= screen_width*0.75:
                     if screen_height*0.15 <= mouse[1] <= screen_height*0.25:
                         status = 'walk_back_and_forth'
@@ -193,4 +195,6 @@ while True:
         screen.blit(menu_surface, [0,0])
 
     pygame.display.update()
-    clock.tick(10)
+
+    # Edit this value to change the speed of WALL-E
+    clock.tick(20)
