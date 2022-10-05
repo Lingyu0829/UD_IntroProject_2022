@@ -28,21 +28,21 @@ __Wednesday__: 10:00 - 5/10: __Session 1__
 __Thursday__: - 6/10: _seminar_
 - Help with questions
 
-__Friday__: - 7/10: __Session 2__
+__Friday__: 13:00 - 7/10: __Session 2__
 - Reading files and Data formatting
     - Data parsing assignment for Tuesday
 
 __Monday__: - 10/10: _seminar_
 - Help with questions
 
-__Tuesday__: - 11/10: __Session 3__
+__Tuesday__: 13:00 - 11/10: __Session 3__
 - Introduction to Vectors and Dataframes
     - Data based assignment for Thursday 
 
 __Wednesday__: 10:00 - 13/10: _seminar_
 - Help with questions
 
-__Thursday__ : - 13/10: __Session 4__
+__Thursday__ : 13:00 - 13/10: __Session 4__
 - Introduction to SOM
     - Final assignment due on Wednesday
 
