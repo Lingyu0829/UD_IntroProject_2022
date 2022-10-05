@@ -21,6 +21,9 @@ __Tuesday__: - 4/10: _seminar_
 - Check Installation, help with questions
 
 __Wednesday__: 10:00 - 5/10: __Session 1__
+
+https://ucl.zoom.us/rec/share/KYpzQIVPdP6KVTG_DSRt6eE9Jel_SnokUv7Xrf9Trc_2a8Fr92o3CKcV3cCbMBd_.3YlizONun3VUzbUS 
+Passcode: ```zbmacK&2```
 - Functions, Lists, Arrays, Read and Write to files
     - Instruct Wall-E Assignment for Friday
     - Text based assignment for Friday
